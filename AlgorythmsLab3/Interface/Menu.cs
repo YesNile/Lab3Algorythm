@@ -47,6 +47,7 @@ namespace AlgorythmsLab3.Interface
                         {
                             item.Execute();
                         }
+
                         break;
                 }
             } while (!canExit);

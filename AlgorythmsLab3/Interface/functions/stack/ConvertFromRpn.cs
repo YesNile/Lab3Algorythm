@@ -17,7 +17,7 @@ namespace AlgorythmsLab3.Interface.functions.stack
             do
             {
                 ConsoleUtil.ClearScreen();
-                Console.WriteLine($"[{Title.ToUpper()}]");
+                Console.WriteLine($"[{Title.ToUpper()}]\n");
                 Console.WriteLine("Введите выражение для подсчета");
                 string input = Console.ReadLine();
                 try

@@ -20,7 +20,7 @@ namespace AlgorythmsLab3.Utils
         {
             do
             {
-                Console.WriteLine("Хотите выйти? [Y/N]");
+                Console.WriteLine("\nХотите выйти? [Y/N]");
                 ConsoleKeyInfo keyInfo = Console.ReadKey(true);
                 if (keyInfo.Key == ConsoleKey.Y | keyInfo.Key == ConsoleKey.N)
                 {
@@ -31,6 +31,12 @@ namespace AlgorythmsLab3.Utils
                     Console.WriteLine("Неизвестная клавиша");
                 }
             } while (true);
+        }
+
+        public static void Pause()
+        {
+            Console.WriteLine("\nДля продолжения нажмите любую клавишу...");
+            Console.ReadLine();
         }
     }
 }

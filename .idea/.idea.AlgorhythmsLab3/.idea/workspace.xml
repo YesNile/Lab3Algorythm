@@ -5,21 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c9aed0c-629a-42bb-ae9d-7f5715ea7d8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/ExitMenuItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/stack/ConvertFromRpn.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/stack/ConvertToRpn.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/ListMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/MainMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/Concat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/CountDistinctElements.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/DoublingList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/Insert.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/InsertElementByOrder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/InsertYourself.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/ListMenuItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/RemoveElements.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/RemoveEverSecondElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/ReverseList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/Split.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/Swap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/list/SwapFirstAndLast.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AlgorhythmsLab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlgorhythmsLab3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/ConsoleUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Utils/ConsoleUtil.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/MenuItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/MenuItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/QueueMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/QueueMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/StackMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/StackMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/stack/ConvertFromRpn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/stack/ConvertFromRpn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/stack/ConvertToRpn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/stack/ConvertToRpn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/ListMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/ListMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/QueueMenu.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Queue/Queue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Queue/Queue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Stack/Stack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Stack/Stack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Utils/StackRPN.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Stack/StackRPN.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Utils/ConsoleUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Utils/ConsoleUtil.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/AlgorythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/AlgorythmsLab3.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/AlgorythmsLab3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/AlgorythmsLab3.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/ref/AlgorythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/ref/AlgorythmsLab3.dll" afterDir="false" />
@@ -96,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667655085216</updated>
-      <workItem from="1667655090843" duration="18904000" />
+      <workItem from="1667655090843" duration="24913000" />
     </task>
     <servers />
   </component>

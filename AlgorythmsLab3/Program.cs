@@ -10,7 +10,6 @@ namespace AlgorythmsLab3
     {
         public static void Main(string[] args)
         {
-
             Menu menu = new MainMenu();
             menu.Start();
         }

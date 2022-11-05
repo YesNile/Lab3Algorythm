@@ -8,7 +8,6 @@ namespace AlgorythmsLab3.Interface
         public MainMenu() : base(title: "", items: new List<MenuItem>()
         {
             new StackMenu(true),
-            new QueueMenu(),
             new ListMenu()
         })
         {

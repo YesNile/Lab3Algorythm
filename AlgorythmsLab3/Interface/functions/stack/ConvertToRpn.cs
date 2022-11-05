@@ -16,7 +16,7 @@ namespace AlgorythmsLab3.Interface.functions.stack
             do
             {
                 ConsoleUtil.ClearScreen();
-                Console.WriteLine($"[{Title.ToUpper()}]");
+                Console.WriteLine($"[{Title.ToUpper()}]\n");
                 Console.WriteLine("Введите выражение для перевода в постфиксную запись");
                 string input = Console.ReadLine();
                 string resultLine = StackRPN.ParseInRPN(input);

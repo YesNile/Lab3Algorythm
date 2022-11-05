@@ -30,9 +30,9 @@ namespace AlgorythmsLab3.Interface
                         MenuPrev();
                         break;
                     case ConsoleKey.Enter:
-                        var select = _items.Find(item => item.IsSelected);
-                        if (select.Title == "Exit") canExit = true;
-                        else select.Execute();
+                        MenuItem item = _items.First(item => item.IsSelected);
+                        if (item.Title == "Exit") canExit = true;
+                        else item.Execute();
                         break;
                 }
             } while (!canExit);

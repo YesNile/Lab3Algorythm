@@ -46,7 +46,7 @@ namespace AlgorythmsLab3
                     }
                     else
                     {
-                        if (operStack.Count > 0)
+                        if (operStack.Count() > 0)
                             if (GetPriority(input[i]) <= GetPriority(operStack.Peek()))
                                 output += operStack.Pop().ToString() + " ";
 
@@ -56,7 +56,7 @@ namespace AlgorythmsLab3
                 }
             }
 
-            while (operStack.Count > 0)
+            while (operStack.Count() > 0)
                 output += (char)operStack.Pop() + " ";
 
             return output;
@@ -113,7 +113,7 @@ namespace AlgorythmsLab3
                 }
                 else if (IsOperation(element))
                 {
-                    if (calc.Count < 2)
+                    if (calc.Count() < 2)
                         {
                             double first = calc.Pop();
                             calc.Push(CalculateOperation(first: first, operation: element));

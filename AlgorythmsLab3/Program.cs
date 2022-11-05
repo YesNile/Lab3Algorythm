@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using AlgorhythmsLab3.Interface.menus;
 using AlgorithmsLab3;
 using AlgorythmsLab3.Menu;
+using AlgorythmsLab3.Structures.LinkedList;
 using AlgorythmsLab3.Tester;
 
 namespace AlgorythmsLab3
@@ -12,19 +11,33 @@ namespace AlgorythmsLab3
     {
         public static void Main(string[] args)
         {
-            Interface.Menu menu = new Interface.Menu(new List<MenuItem>()
-            {
-                new StackMenu(true),
-                new StackMenu(),
-                new StackMenu(),
-                new StackMenu(),
-            });
-            menu.Start();
-            // Interface.Menu menu = new Menu(new List<MenuItem>()
-            // {
-            //     
-            // });
+            LinkedList<int> list = new LinkedList<int>();
+            list.Add(1);
+            list.Add(2);
+            list.Add(3);
+            list.Add(2);
+            list.Add(4);
+            list.Add(5);
+            list.Add(2);
+            list.Add(1);
+            list.Add(6);
+            list.Add(7);
 
+            // var (list1, list2) = list.Split(5);
+            // Console.WriteLine(list1);
+            // Console.WriteLine(list2);
+            list.PasteYourself(4);
+            Console.WriteLine(list);
+            Console.ReadLine();
+
+            // Interface.Menu menu = new Interface.Menu(new List<MenuItem>()
+            // {
+            //     new StackMenu(true),
+            //     new StackMenu(),
+            //     new StackMenu(),
+            //     new StackMenu(),
+            // });
+            // menu.Start();
 
 
             //Stack<object> stack = new Stack<object>();
@@ -44,17 +57,17 @@ namespace AlgorythmsLab3
             //Console.WriteLine(result);
             // Console.WriteLine("a1a1a1a1a1a");
             // LinkedList<object> list = new LinkedList<object>();
-            //  list.AddToEnd(1);
-            //  list.AddToEnd(2);
-            //  list.AddToEnd(3);
-            //  list.AddToEnd(4);
-            //  list.AddToEnd(5);
-            //  list.AddToEnd(6);
+            //  list.Add(1);
+            //  list.Add(2);
+            //  list.Add(3);
+            //  list.Add(4);
+            //  list.Add(5);
+            //  list.Add(6);
             //  Console.WriteLine(list);
             // list.CountWhole();
             // Console.WriteLine(list.CountWhole());
             //List<string> lines = File.ReadAllLines("test.txt").ToList();
-            // list.AddList(lines);
+            // list.Concat(lines);
             //Console.WriteLine(list);
 
             //TestQueueConst();
@@ -90,7 +103,7 @@ namespace AlgorythmsLab3
                 }
                 else if (item == "4")
                 {
-                    Console.WriteLine($"Пустой ли стек? {(stack.IsEmpty ? "да" : "нет")}");
+                    Console.WriteLine($"Пустой ли стек? {(stack.IsEmpty() ? "да" : "нет")}");
                 }
                 else
                 {
@@ -125,7 +138,7 @@ namespace AlgorythmsLab3
                 }
                 else if (item == "4")
                 {
-                    Console.WriteLine($"Пустая ли очередь? {(queue.IsEmpty ? "да" : "нет")}");
+                    Console.WriteLine($"Пустая ли очередь? {(queue.IsEmpty() ? "да" : "нет")}");
                 }
                 else
                 {
@@ -133,7 +146,7 @@ namespace AlgorythmsLab3
                 }
             }
         }
-        private static void TestStackRandom(Func<string,Stack<object>> func, string name, int iterCount)
+        private static void TestStackRandom(Func<string, Stack<object>> func, string name, int iterCount)
         {
             var tester = new TimeTester();
             for (int i = 1; i <= 1500; i++)

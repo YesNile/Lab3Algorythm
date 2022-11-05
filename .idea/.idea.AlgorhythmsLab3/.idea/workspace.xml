@@ -5,91 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c9aed0c-629a-42bb-ae9d-7f5715ea7d8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AlgorhythmsLab3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/ConsoleUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/Menu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/MenuItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlgorhythmsLab3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlgorhythmsLab3/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlgorhythmsLab3/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/AlgorhythmsLab3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/AlgorythmsLab3.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Generator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Generator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/LinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/LinkedList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/PostFix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/PostFix.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Queue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Queue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Stack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Stack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/StackRPN.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/StackRPN.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Tester/DataTypes/Matrix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Tester/DataTypes/Matrix.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Tester/DataTypes/Vector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Tester/DataTypes/Vector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Tester/StepTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Tester/StepTester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Tester/TimeTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Tester/TimeTester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Tester/classes/DoubleExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Tester/classes/DoubleExtension.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Tester/classes/SaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Tester/classes/SaveManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Tester/classes/TestResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Tester/classes/TestResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Tester/interfaces/IStepTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Tester/interfaces/IStepTester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Tester/interfaces/ITester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Tester/interfaces/ITester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/Tester/interfaces/ITimeTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Tester/interfaces/ITimeTester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/AlgorhythmsLab3" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/AlgorhythmsLab3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/AlgorhythmsLab3.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/AlgorhythmsLab3.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/AlgorhythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/AlgorhythmsLab3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/AlgorhythmsLab3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/AlgorhythmsLab3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/AlgorhythmsLab3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/AlgorhythmsLab3.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/AlgorhythmsLab3.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/AlgorhythmsLab3.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/EPPlus.Interfaces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/EPPlus.Interfaces.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/EPPlus.System.Drawing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/EPPlus.System.Drawing.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/EPPlus.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/EPPlus.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Json.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Physical.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Physical.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/Microsoft.IO.RecyclableMemoryStream.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/Microsoft.IO.RecyclableMemoryStream.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/System.Drawing.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/System.Drawing.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/System.Security.Cryptography.Pkcs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/System.Security.Cryptography.Pkcs.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/testPush" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/testPush" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/testPush.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/testPush.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/bin/Debug/net6.0/testedlab3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net6.0/testedlab3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/AlgorhythmsLab3.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/AlgorhythmsLab3.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/AlgorhythmsLab3.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/AlgorhythmsLab3.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/AlgorhythmsLab3.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/AlgorhythmsLab3.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.csproj.BuildWithSkipAnalyzers" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.csproj.BuildWithSkipAnalyzers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.csproj.CopyComplete" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.csproj.CopyComplete" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/AlgorhythmsLab3.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/apphost" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/ref/AlgorhythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/ref/AlgorhythmsLab3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/Debug/net6.0/refint/AlgorhythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net6.0/refint/AlgorhythmsLab3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorhythmsLab3/testedlab3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/testedlab3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AlgorhythmsLab3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/QueueMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/LinkedList/INode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/LinkedList/LinkedListNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlgorhythmsLab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlgorhythmsLab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/AlgorythmsLab3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/AlgorythmsLab3.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Generator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Utils/Generator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/LinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/LinkedList/LinkedList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/PostFix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Utils/PostFix.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Queue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Queue/Queue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Stack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Stack/Stack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/StackRPN.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Utils/StackRPN.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/DataTypes/Matrix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/DataTypes/Matrix.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/DataTypes/Vector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/DataTypes/Vector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/StepTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/StepTester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/TimeTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/TimeTester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/classes/DoubleExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/classes/DoubleExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/classes/SaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/classes/SaveManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/classes/TestResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/classes/TestResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/interfaces/IStepTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/interfaces/IStepTester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/interfaces/ITester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/interfaces/ITester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/interfaces/ITimeTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/interfaces/ITimeTester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/AlgorythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/AlgorythmsLab3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/AlgorythmsLab3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/AlgorythmsLab3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/ref/AlgorythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/ref/AlgorythmsLab3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/ref/AlgorythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/ref/AlgorythmsLab3.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,14 +47,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Generator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dc2e1711ae48c25377a35219da8e74d9e39668dec55cec8cbd485a2b626893de/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Interface/MenuItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/LinkedList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/PostFix.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Queue.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Stack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/StackRPN.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Structures/LinkedList/LinkedList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Structures/Queue/Queue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Structures/Stack/Stack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Utils/Generator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Utils/PostFix.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Utils/StackRPN.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -125,6 +73,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -156,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667655085216</updated>
-      <workItem from="1667655090843" duration="1979000" />
+      <workItem from="1667655090843" duration="14149000" />
     </task>
     <servers />
   </component>
@@ -176,5 +126,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

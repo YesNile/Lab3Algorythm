@@ -11,22 +11,21 @@ namespace AlgorithmsLab3
             Random random = new Random();
             for (int i = 0; i < amountOfCommands; i++)
             {
-                int a = random.Next(1,6);
+                int a = random.Next(1, 6);
                 sb.Append(a);
                 if (a == 1)
                 {
-                    int value = random.Next();
+                    int value = random.Next(0,10000);
                     sb.Append(',').Append(value);
                 }
 
-                if (i!=amountOfCommands-1)
+                if (i != amountOfCommands - 1)
                 {
                     sb.Append(' ');
                 }
             }
 
             return sb.ToString();
-
         }
     }
 }

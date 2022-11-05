@@ -11,6 +11,8 @@ namespace AlgorythmsLab3
 
         public bool IsEmpty() => _list.Count == 0;
 
+        public int Count => _list.Count;
+
         public void Enqueue(T element)
         {
             _list.Add(element);

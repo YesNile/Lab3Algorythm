@@ -1,8 +1,7 @@
 ﻿using System;
 using System.IO;
 using AlgorithmsLab3;
-using AlgorythmsLab3.Menu;
-using AlgorythmsLab3.Structures.LinkedList;
+using AlgorythmsLab3.Interface;
 using AlgorythmsLab3.Tester;
 
 namespace AlgorythmsLab3
@@ -11,68 +10,9 @@ namespace AlgorythmsLab3
     {
         public static void Main(string[] args)
         {
-            LinkedList<int> list = new LinkedList<int>();
-            list.Add(1);
-            list.Add(2);
-            list.Add(3);
-            list.Add(2);
-            list.Add(4);
-            list.Add(5);
-            list.Add(2);
-            list.Add(1);
-            list.Add(6);
-            list.Add(7);
 
-            // var (list1, list2) = list.Split(5);
-            // Console.WriteLine(list1);
-            // Console.WriteLine(list2);
-            list.PasteYourself(4);
-            Console.WriteLine(list);
-            Console.ReadLine();
-
-            // Interface.Menu menu = new Interface.Menu(new List<MenuItem>()
-            // {
-            //     new StackMenu(true),
-            //     new StackMenu(),
-            //     new StackMenu(),
-            //     new StackMenu(),
-            // });
-            // menu.Start();
-
-
-            //Stack<object> stack = new Stack<object>();
-            //Task2Stack(stack);
-            //Task2Queue();
-            //Console.WriteLine("111");
-            //Console.WriteLine("222");
-            // Console.WriteLine("aaaaa");
-            //5 4 + 32 - 2 / 6 +
-            //var inputFileLine = ReadFile("testedlab3.txt");
-            //List<string> operation = inputFileLine.Split(" ").ToList().Where(x => !x.Equals(string.Empty)).ToList();
-            //double result = StackRPN.CalculateRPN(operation);
-            //Console.WriteLine(result);
-
-            //Generator.GenerateFile(100);
-            //string result = StackRPN.ParseInRPN(Console.ReadLine());
-            //Console.WriteLine(result);
-            // Console.WriteLine("a1a1a1a1a1a");
-            // LinkedList<object> list = new LinkedList<object>();
-            //  list.Add(1);
-            //  list.Add(2);
-            //  list.Add(3);
-            //  list.Add(4);
-            //  list.Add(5);
-            //  list.Add(6);
-            //  Console.WriteLine(list);
-            // list.CountWhole();
-            // Console.WriteLine(list.CountWhole());
-            //List<string> lines = File.ReadAllLines("test.txt").ToList();
-            // list.Concat(lines);
-            //Console.WriteLine(list);
-
-            //TestQueueConst();
-            //TestQueueRandom();
-            //TestStackRandom();
+            Menu menu = new MainMenu();
+            menu.Start();
         }
         
 

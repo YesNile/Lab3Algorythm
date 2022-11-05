@@ -1,4 +1,4 @@
-﻿namespace AlgorythmsLab3.Menu
+﻿namespace AlgorythmsLab3.Interface
 {
     public abstract class MenuItem
     {
@@ -6,7 +6,7 @@
         public abstract void Execute();
         public bool IsSelected { get; set; }
 
-        public MenuItem(string title, bool isSelected)
+        public MenuItem(string title, bool isSelected = false)
         {
             Title = title;
             IsSelected = isSelected;

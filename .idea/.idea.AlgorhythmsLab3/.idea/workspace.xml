@@ -5,34 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c9aed0c-629a-42bb-ae9d-7f5715ea7d8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AlgorhythmsLab3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/QueueMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/LinkedList/INode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/LinkedList/LinkedListNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/ExitMenuItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/stack/ConvertFromRpn.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/functions/stack/ConvertToRpn.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/ListMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/MainMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AlgorhythmsLab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlgorhythmsLab3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/AlgorythmsLab3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/AlgorythmsLab3.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Generator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Utils/Generator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/ConsoleUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Utils/ConsoleUtil.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/LinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/LinkedList/LinkedList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/PostFix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Utils/PostFix.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/MenuItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/MenuItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/QueueMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/QueueMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/StackMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Interface/menus/StackMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Queue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Queue/Queue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Stack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Stack/Stack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/StackRPN.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Utils/StackRPN.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/DataTypes/Matrix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/DataTypes/Matrix.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/DataTypes/Vector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/DataTypes/Vector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/StepTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/StepTester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/TimeTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/TimeTester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/classes/DoubleExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/classes/DoubleExtension.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/classes/SaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/classes/SaveManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/classes/TestResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/classes/TestResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/interfaces/IStepTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/interfaces/IStepTester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/interfaces/ITester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/interfaces/ITester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Tester/interfaces/ITimeTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Testing/Tester/interfaces/ITimeTester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Queue/Queue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Queue/Queue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Stack/Stack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Stack/Stack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/Utils/StackRPN.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/Structures/Stack/StackRPN.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/AlgorythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/AlgorythmsLab3.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/AlgorythmsLab3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/AlgorythmsLab3.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/ref/AlgorythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/bin/Debug/net5.0/ref/AlgorythmsLab3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorythmsLab3/obj/Debug/net5.0/AlgorythmsLab3.pdb" afterDir="false" />
@@ -53,9 +43,9 @@
     <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Structures/LinkedList/LinkedList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Structures/Queue/Queue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Structures/Stack/Stack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Structures/Stack/StackRPN.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Utils/Generator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Utils/PostFix.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AlgorythmsLab3/Utils/StackRPN.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -106,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667655085216</updated>
-      <workItem from="1667655090843" duration="14149000" />
+      <workItem from="1667655090843" duration="18904000" />
     </task>
     <servers />
   </component>

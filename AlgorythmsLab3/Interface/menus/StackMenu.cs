@@ -1,16 +1,16 @@
-﻿using System;
-using AlgorythmsLab3.Menu;
+﻿using System.Collections.Generic;
+using AlgorythmsLab3.Interface.functions.stack;
 
-namespace AlgorhythmsLab3.Interface.menus
+namespace AlgorythmsLab3.Interface.menus
 {
-    public class StackMenu : MenuItem
+    public class StackMenu : Menu
     {
-        public StackMenu(bool isSelected = false) : base("Тестирование стэка", isSelected) { }
-
-        public override void Execute()
+        public StackMenu(bool isSelected = false) : base(title: "Стэк", isSelected: isSelected, items: new List<MenuItem>()
         {
-            Console.WriteLine("Ты думал здесь что-то будет?");
-            Console.ReadLine();
+            new ConvertToRpn(true),
+            new ConvertFromRpn()
+        })
+        {
         }
     }
 }

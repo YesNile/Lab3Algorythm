@@ -1,21 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using AlgorythmsLab3.Menu;
+using AlgorythmsLab3.Interface.functions;
+using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface
 {
-    public class Menu
+    public abstract class Menu : MenuItem
     {
-        private readonly List<MenuItem> _items;
+        protected List<MenuItem> Items;
 
-        public Menu(List<MenuItem> items)
+        public Menu(string title, List<MenuItem> items, bool isSelected = false) : base(title, isSelected)
         {
-            _items = items;
+            items.Add(new ExitMenuItem());
+            Items = items;
+        }
+
+        public override void Execute()
+        {
+            Start();
         }
 
         public void Start()
         {
+            Console.CursorVisible = false;
             bool canExit = false;
             do
             {
@@ -30,9 +38,15 @@ namespace AlgorythmsLab3.Interface
                         MenuPrev();
                         break;
                     case ConsoleKey.Enter:
-                        MenuItem item = _items.First(item => item.IsSelected);
-                        if (item.Title == "Exit") canExit = true;
-                        else item.Execute();
+                        MenuItem item = Items.First(item => item.IsSelected);
+                        if (item.Equals(Items.Last()))
+                        {
+                            canExit = true;
+                        }
+                        else
+                        {
+                            item.Execute();
+                        }
                         break;
                 }
             } while (!canExit);
@@ -41,31 +55,31 @@ namespace AlgorythmsLab3.Interface
         private void MenuPrev()
         {
             ConsoleUtil.ClearScreen();
-            MenuItem select = _items.First(item => item.IsSelected);
-            int selectindex = _items.IndexOf(select);
-            _items[selectindex].IsSelected = false;
+            MenuItem select = Items.First(item => item.IsSelected);
+            int selectindex = Items.IndexOf(select);
+            Items[selectindex].IsSelected = false;
             selectindex = selectindex == 0
-                ? _items.Count - 1
+                ? Items.Count - 1
                 : --selectindex;
-            _items[selectindex].IsSelected = true;
+            Items[selectindex].IsSelected = true;
         }
 
         private void MenuNext()
         {
             ConsoleUtil.ClearScreen();
-            MenuItem select = _items.First(item => item.IsSelected);
-            int selectindex = _items.IndexOf(select);
-            _items[selectindex].IsSelected = false;
-            selectindex = selectindex == _items.Count - 1
+            MenuItem select = Items.First(item => item.IsSelected);
+            int selectindex = Items.IndexOf(select);
+            Items[selectindex].IsSelected = false;
+            selectindex = selectindex == Items.Count - 1
                 ? 0
                 : ++selectindex;
-            _items[selectindex].IsSelected = true;
+            Items[selectindex].IsSelected = true;
         }
 
         private void DrawMenu()
         {
             ConsoleUtil.ClearScreen();
-            foreach (var item in _items)
+            foreach (var item in Items)
             {
                 Console.BackgroundColor = item.IsSelected
                     ? ConsoleColor.DarkCyan

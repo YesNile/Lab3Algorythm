@@ -3,8 +3,7 @@ using System.Collections.Generic;
 
 namespace AlgorythmsLab3
 {
-
-    public class StackRPN
+    public static class StackRPN
     {
         public static string ParseInRPN(string input)
         {
@@ -36,38 +35,36 @@ namespace AlgorythmsLab3
                         operStack.Push(input[i]);
                     else if (input[i] == ')')
                     {
-                        char s = (char)operStack.Pop();
+                        char s = (char) operStack.Pop();
 
                         while (s != '(')
                         {
                             output += s.ToString() + ' ';
-                            s = (char)operStack.Pop();
+                            s = (char) operStack.Pop();
                         }
                     }
                     else
                     {
-                        if (operStack.Count() > 0)
+                        if (operStack.Count > 0)
                             if (GetPriority(input[i]) <= GetPriority(operStack.Peek()))
                                 output += operStack.Pop().ToString() + " ";
 
                         operStack.Push(char.Parse(input[i].ToString()));
-
                     }
                 }
             }
 
-            while (operStack.Count() > 0)
-                output += (char)operStack.Pop() + " ";
+            while (operStack.Count > 0)
+                output += (char) operStack.Pop() + " ";
 
             return output;
-
         }
 
         static private bool IsDelimeter(char c)
         {
             return " =".IndexOf(c) != -1;
         }
-        
+
 
         static private byte GetPriority(char s)
         {
@@ -83,9 +80,10 @@ namespace AlgorythmsLab3
                 default: return 6;
             }
         }
+
         private static bool IsOperation(char symbol) => "+-/*^()".IndexOf(symbol) != -1;
 
-        private static bool IsOperation(string operation) =>operation.Equals("+")
+        private static bool IsOperation(string operation) => operation.Equals("+")
                                                              || operation.Equals("-")
                                                              || operation.Equals("=")
                                                              || operation.Equals("/")
@@ -94,8 +92,8 @@ namespace AlgorythmsLab3
                                                              || operation.Equals("ln")
                                                              || operation.Equals("cos")
                                                              || operation.Equals("sin");
-        
-        
+
+
         public static double CalculateRPN(List<string> rpn)
         {
             if (rpn.Count == 0)
@@ -113,18 +111,18 @@ namespace AlgorythmsLab3
                 }
                 else if (IsOperation(element))
                 {
-                    if (calc.Count() < 2)
-                        {
-                            double first = calc.Pop();
-                            calc.Push(CalculateOperation(first: first, operation: element));
-                        }
-                        else
-                        {
-                            double second = calc.Pop();
-                            double first = calc.Pop();
+                    if (calc.Count < 2)
+                    {
+                        double first = calc.Pop();
+                        calc.Push(CalculateOperation(first: first, operation: element));
+                    }
+                    else
+                    {
+                        double second = calc.Pop();
+                        double first = calc.Pop();
 
-                            calc.Push(CalculateOperation(first: first, second: second, operation: element));
-                        }
+                        calc.Push(CalculateOperation(first: first, second: second, operation: element));
+                    }
                 }
                 else
                 {

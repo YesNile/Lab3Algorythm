@@ -1,16 +1,14 @@
-﻿using AlgorythmsLab3.Menu;
+﻿using System.Collections.Generic;
 
-namespace AlgorhythmsLab3.Interface.menus
+namespace AlgorythmsLab3.Interface.menus
 {
-    public class QueueMenu : MenuItem
+    public class QueueMenu : Menu
     {
-        public QueueMenu(bool isSelected = false) : base("Очередь", isSelected)
+        public QueueMenu(bool isSelected = false) : base(title: "Очередь", isSelected: isSelected, items: new List<MenuItem>()
         {
-        }
-
-        public override void Execute()
+            
+        })
         {
-            throw new System.NotImplementedException(); //TODO
         }
     }
 }

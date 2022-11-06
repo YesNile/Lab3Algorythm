@@ -13,6 +13,10 @@ namespace AlgorythmsLab3.Interface
         public Menu(string title, List<MenuItem> items, bool isSelected = false) : base(title, isSelected)
         {
             items.Add(new ExitMenuItem());
+            if (!items.Any(x => x.IsSelected))
+            {
+                items.First().IsSelected = true;
+            }
             Items = items;
         }
 

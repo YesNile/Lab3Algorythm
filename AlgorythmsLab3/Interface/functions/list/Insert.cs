@@ -5,7 +5,7 @@ using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface.functions.list
 {
-    public class Insert : ListMenuItem
+    public class Insert : MenuItemList
     {
         public Insert(LinkedList<int> list, bool isSelected = false) : base(list, title: "Вставить элемент \'F\' перед первым вхождением элемента \'E\'", isSelected)
         {
@@ -16,6 +16,9 @@ namespace AlgorythmsLab3.Interface.functions.list
             ConsoleUtil.ClearScreen();
 
             Console.WriteLine($"[{Title.ToUpper()}]\n");
+            
+            Console.WriteLine("Изначальный список:");
+            Console.WriteLine(List);
 
             Console.WriteLine("Введите целое число \'F\': ");
             Console.CursorVisible = true;
@@ -40,9 +43,6 @@ namespace AlgorythmsLab3.Interface.functions.list
             if (value1 != -1 && value2 != -1)
             {
                 Console.CursorVisible = false;
-
-                Console.WriteLine("Изначальный список:");
-                Console.WriteLine(List);
 
                 List.Insert(value2, value1);
                 Console.WriteLine("Результат вставки элемента \'F\':");

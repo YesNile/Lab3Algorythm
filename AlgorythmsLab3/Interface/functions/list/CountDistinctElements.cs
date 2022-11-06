@@ -4,7 +4,7 @@ using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface.functions.list
 {
-    public class CountDistinctElements : ListMenuItem
+    public class CountDistinctElements : MenuItemList
     {
         public CountDistinctElements(LinkedList<int> list, bool isSelected = false) : base(list,
             title: "Определение количества различных элементов списка", isSelected)

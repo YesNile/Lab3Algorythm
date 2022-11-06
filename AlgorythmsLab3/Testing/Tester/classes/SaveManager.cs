@@ -1,21 +1,18 @@
-﻿using System.ComponentModel;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
-using Algorithms.Tester;
 using Algorithms.Tester.classes;
 using OfficeOpenXml;
-//using OfficeOpenXml.Core.ExcelPackage;
 using OfficeOpenXml.Drawing.Chart;
 using OfficeOpenXml.Drawing.Chart.Style;
 
-namespace AlgorythmsLab3.Tester
+namespace AlgorythmsLab3.Testing.Tester.classes
 {
     public static class SaveManager
     {
         public static void SaveTable<TResult>(FileInfo file, TestResult<TResult>[] results, string title1, string title2,
             bool isGraphic = true)
         {
-            //ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
             
             using ExcelPackage package = new(file);
             string name = results[0].AlgorithmName;

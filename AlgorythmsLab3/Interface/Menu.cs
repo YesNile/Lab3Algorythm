@@ -69,12 +69,12 @@ namespace AlgorythmsLab3.Interface
         {
             ConsoleUtil.ClearScreen();
             MenuItem select = Items.First(item => item.IsSelected);
-            int selectindex = Items.IndexOf(select);
-            Items[selectindex].IsSelected = false;
-            selectindex = selectindex == Items.Count - 1
+            int selectIndex = Items.IndexOf(select);
+            Items[selectIndex].IsSelected = false;
+            selectIndex = selectIndex == Items.Count - 1
                 ? 0
-                : ++selectindex;
-            Items[selectindex].IsSelected = true;
+                : ++selectIndex;
+            Items[selectIndex].IsSelected = true;
         }
 
         private void DrawMenu()

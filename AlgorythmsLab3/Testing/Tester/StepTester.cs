@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using Algorithms.Tester.classes;
 using Algorithms.Tester.interfaces;
+using AlgorythmsLab3.Testing.Tester.classes;
 
 namespace AlgorythmsLab3.Tester
 {

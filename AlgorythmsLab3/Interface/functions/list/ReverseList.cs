@@ -4,7 +4,7 @@ using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface.functions.list
 {
-    public class ReverseList : ListMenuItem
+    public class ReverseList : MenuItemList
     {
         public ReverseList(LinkedList<int> list, bool isSelected = false) : base(list, 
             title: "Перевернуть лист", isSelected)

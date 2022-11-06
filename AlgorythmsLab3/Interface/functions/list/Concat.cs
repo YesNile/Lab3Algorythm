@@ -4,7 +4,7 @@ using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface.functions.list
 {
-    public class Concat : ListMenuItem
+    public class Concat : MenuItemList
     {
         public Concat(Structures.LinkedList.LinkedList<int> list, bool isSelected = false) : base(list,
             title: "Дописать новый список в конец существующего", isSelected)

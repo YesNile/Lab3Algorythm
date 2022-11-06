@@ -17,6 +17,7 @@ namespace AlgorythmsLab3.Interface.menus
             new InsertYourself(list: List),
             new InsertElementByOrder(list: List),
             new RemoveElements(list: List),
+            new Insert(list: List),
             new Concat(list: List),
             new Split(list: List),
             new DoublingList(list: List),

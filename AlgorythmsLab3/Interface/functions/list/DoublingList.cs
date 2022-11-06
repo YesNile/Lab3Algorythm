@@ -4,7 +4,7 @@ using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface.functions.list
 {
-    public class DoublingList : ListMenuItem
+    public class DoublingList : MenuItemList
     {
         public DoublingList(LinkedList<int> list, bool isSelected = false) : base(list, title: "Удвоение списка", isSelected)
         {

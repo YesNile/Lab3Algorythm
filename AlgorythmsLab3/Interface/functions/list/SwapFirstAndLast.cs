@@ -4,7 +4,7 @@ using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface.functions.list
 {
-    public class SwapFirstAndLast : ListMenuItem
+    public class SwapFirstAndLast : MenuItemList
     {
         public SwapFirstAndLast(LinkedList<int> list, bool isSelected = false) : base(list,
             "Поменять местами первый и последний элемент", isSelected)

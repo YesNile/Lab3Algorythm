@@ -4,7 +4,7 @@ using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface.functions.list
 {
-    public class RemoveElements : ListMenuItem
+    public class RemoveElements : MenuItemList
     {
         public RemoveElements(LinkedList<int> list, bool isSelected = false) : base(list,
             title: "Удаление всех вхождений элемента", isSelected)

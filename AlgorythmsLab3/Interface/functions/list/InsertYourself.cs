@@ -4,7 +4,7 @@ using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface.functions.list
 {
-    public class InsertYourself : ListMenuItem
+    public class InsertYourself : MenuItemList
     {
         public InsertYourself(LinkedList<int> list, bool isSelected = false) : base(list,
             title: "Вставка списка самого в себя", isSelected)

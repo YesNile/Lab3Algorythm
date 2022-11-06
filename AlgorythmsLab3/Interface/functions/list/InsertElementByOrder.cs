@@ -5,7 +5,7 @@ using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface.functions.list
 {
-    public class InsertElementByOrder : ListMenuItem
+    public class InsertElementByOrder : MenuItemList
     {
         public InsertElementByOrder(LinkedList<int> list, bool isSelected = false) : base(list,
             title: "Вставить элемент с сохранением порядка", isSelected)

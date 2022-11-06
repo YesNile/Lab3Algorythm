@@ -5,7 +5,7 @@ namespace AlgorithmsLab3
 {
     public class Generator
     {
-        public static string GenerateFile(int amountOfCommands)
+        public static string GenerateRandomCommands(int amountOfCommands)
         {
             StringBuilder sb = new StringBuilder();
             Random random = new Random();
@@ -15,7 +15,7 @@ namespace AlgorithmsLab3
                 sb.Append(a);
                 if (a == 1)
                 {
-                    int value = random.Next(0,10000);
+                    int value = random.Next(0, 10_000);
                     sb.Append(',').Append(value);
                 }
 
@@ -26,6 +26,30 @@ namespace AlgorithmsLab3
             }
 
             return sb.ToString();
+        }
+
+        public static string GenerateRandomCommandsByPattern(int amountOfCommands, params int[] commands)
+        {
+            StringBuilder sb = new StringBuilder();
+            Random random = new Random();
+
+            for (int i = 0; i < amountOfCommands; i++)
+            {
+                foreach (var command in commands)
+                {
+                    if (command == 1)
+                    {
+                        int value = random.Next(0, 10_000);
+                        sb.Append($"{command},{value} ");
+                    }
+                    else
+                    {
+                        sb.Append($"{command} ");
+                    }
+                }
+            }
+
+            return sb.ToString().Trim();
         }
     }
 }

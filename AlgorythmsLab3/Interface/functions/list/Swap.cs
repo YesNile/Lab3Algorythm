@@ -4,7 +4,7 @@ using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface.functions.list
 {
-    public class Swap : ListMenuItem
+    public class Swap : MenuItemList
     {
         public Swap(LinkedList<int> list, bool isSelected = false) : base(list, title: "Поменять местами два элемента списка", isSelected)
         {

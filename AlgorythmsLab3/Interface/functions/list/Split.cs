@@ -4,7 +4,7 @@ using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface.functions.list
 {
-    public class Split : ListMenuItem
+    public class Split : MenuItemList
     {
         public Split(LinkedList<int> list, bool isSelected = false) : base(list, title: "Разделение списка на два по заданному числу", isSelected)
         {

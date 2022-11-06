@@ -4,7 +4,7 @@ using AlgorythmsLab3.Utils;
 
 namespace AlgorythmsLab3.Interface.functions.list
 {
-    public class RemoveEverSecondElement : ListMenuItem
+    public class RemoveEverSecondElement : MenuItemList
     {
         public RemoveEverSecondElement(LinkedList<int> list, bool isSelected = false) : base(list,
             title: "Удаление всех вторых вхождений элемента", isSelected)

@@ -9,13 +9,18 @@ namespace AlgorythmsLab3
 
         private readonly LinkedList<T> _list = new LinkedList<T>();
 
-        public bool IsEmpty() => _list.Count == 0;
+        public bool IsEmpty => _list.Count == 0;
 
         public int Count => _list.Count;
 
         public void Enqueue(T element)
         {
             _list.Add(element);
+        }
+
+        public object Peek()
+        {
+            return _list.Head;
         }
 
         public T Dequeue()
@@ -27,7 +32,7 @@ namespace AlgorythmsLab3
 
         public T First()
         {
-            if (IsEmpty())
+            if (IsEmpty)
             {
                 throw new InvalidOperationException("Queue is Empty!");
             }
@@ -38,7 +43,7 @@ namespace AlgorythmsLab3
         {
             foreach (var elem in _list)
             {
-                Console.WriteLine(elem);
+                Console.Write($"{elem} ");
             }
         }
 

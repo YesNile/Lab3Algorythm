@@ -34,10 +34,10 @@ namespace AlgorythmsLab3.Interface.functions.list
             }
             catch (Exception e)
             {
-                value = -1;
+                value = int.MinValue;
             }
 
-            if (value != -1)
+            if (value != int.MinValue)
             {
                 Console.CursorVisible = false;
 

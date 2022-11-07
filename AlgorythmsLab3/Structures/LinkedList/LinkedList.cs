@@ -131,6 +131,25 @@ namespace AlgorythmsLab3.Structures.LinkedList
             ++Count;
         }
 
+        private void AddBefore(INode<T> nodeAfter, INode<T> newNode)
+        {
+            if (nodeAfter == Head)
+            {
+                newNode.Next = nodeAfter;
+                nodeAfter.Prev = newNode;
+                Head = newNode;
+            }
+            else
+            {
+                newNode.Next = nodeAfter;
+                newNode.Prev.Next = newNode;
+                newNode.Prev = nodeAfter.Prev;
+                nodeAfter.Prev = newNode;
+            }
+
+            ++Count;
+        }
+
         public override string ToString()
         {
             List<T> list = new List<T>();
@@ -253,6 +272,11 @@ namespace AlgorythmsLab3.Structures.LinkedList
                     AddAfter(current, node);
                     break;
                 }
+                else if (node.Value.GetHashCode() < current.Value.GetHashCode())
+                {
+                    AddBefore(current, node);
+                    break;
+                }
 
                 if (i == Count - 2 && nextNode.Value.GetHashCode() < node.Value.GetHashCode())
                 {
@@ -264,11 +288,27 @@ namespace AlgorythmsLab3.Structures.LinkedList
         public void Remove(int index)
         {
             var node = this[index];
-            var prev = node.Prev;
-            var next = node.Next;
+            if (node == Head)
+            {
+                var next = node.Next;
+                next.Prev = null;
+                Head = next;
+            }
+            else if (node == Tail)
+            {
+                var prev = node.Prev;
+                prev.Next = null;
+                Tail = prev;
+            }
+            else
+            {
+                var prev = node.Prev;
+                var next = node.Next;
 
-            prev.Next = next;
-            next.Prev = prev;
+                prev.Next = next;
+
+                next.Prev = prev;
+            }
 
             Count--;
         }

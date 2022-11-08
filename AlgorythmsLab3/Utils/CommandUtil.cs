@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 namespace AlgorythmsLab3.Utils
@@ -49,6 +50,7 @@ namespace AlgorythmsLab3.Utils
             return stack;
         }
         
+        [SuppressMessage("ReSharper.DPA", "DPA0001: Memory allocation issues")]
         public static Queue<object> GetCommandForQueue(string command)
         {
             var commands = command.Split(" ");

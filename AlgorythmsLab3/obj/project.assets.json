@@ -1065,28 +1065,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\20min\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
+    "C:\\Users\\Данил\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\folder for trash code\\Lab3Algorythm\\AlgorythmsLab3\\AlgorythmsLab3.csproj",
+      "projectUniqueName": "D:\\Users\\Данил\\RiderProjects\\Lab3Algorythm\\AlgorythmsLab3\\AlgorythmsLab3.csproj",
       "projectName": "AlgorythmsLab3",
-      "projectPath": "D:\\folder for trash code\\Lab3Algorythm\\AlgorythmsLab3\\AlgorythmsLab3.csproj",
-      "packagesPath": "C:\\Users\\20min\\.nuget\\packages\\",
-      "outputPath": "D:\\folder for trash code\\Lab3Algorythm\\AlgorythmsLab3\\obj\\",
+      "projectPath": "D:\\Users\\Данил\\RiderProjects\\Lab3Algorythm\\AlgorythmsLab3\\AlgorythmsLab3.csproj",
+      "packagesPath": "C:\\Users\\Данил\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Данил\\RiderProjects\\Lab3Algorythm\\AlgorythmsLab3\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
-      ],
       "configFilePaths": [
-        "C:\\Users\\20min\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Данил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -1126,12 +1118,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.15, 5.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

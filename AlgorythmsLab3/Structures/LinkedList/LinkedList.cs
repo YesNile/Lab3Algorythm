@@ -160,6 +160,38 @@ namespace AlgorythmsLab3.Structures.LinkedList
 
             return string.Join(" ", list);
         }
+        public void Clear()
+        {
+            Head = Tail = null;
+            Count = 0;
+        }
+        public void Remove(int index)
+        {
+            var node = this[index];
+            if (node == Head)
+            {
+                var next = node.Next;
+                next.Prev = null;
+                Head = next;
+            }
+            else if (node == Tail)
+            {
+                var prev = node.Prev;
+                prev.Next = null;
+                Tail = prev;
+            }
+            else
+            {
+                var prev = node.Prev;
+                var next = node.Next;
+
+                prev.Next = next;
+
+                next.Prev = prev;
+            }
+
+            Count--;
+        }
 
 
         public LinkedList<T> Reverse() // Задание 4.1 
@@ -220,12 +252,6 @@ namespace AlgorythmsLab3.Structures.LinkedList
             }
         }
 
-        public void Clear()
-        {
-            Head = Tail = null;
-            Count = 0;
-        }
-
         public void PasteYourself(T elementInsert) // Задание 4.5
         {
             if (Head == null)
@@ -283,34 +309,6 @@ namespace AlgorythmsLab3.Structures.LinkedList
                     AddAfter(nextNode, node);
                 }
             }
-        }
-
-        public void Remove(int index)
-        {
-            var node = this[index];
-            if (node == Head)
-            {
-                var next = node.Next;
-                next.Prev = null;
-                Head = next;
-            }
-            else if (node == Tail)
-            {
-                var prev = node.Prev;
-                prev.Next = null;
-                Tail = prev;
-            }
-            else
-            {
-                var prev = node.Prev;
-                var next = node.Next;
-
-                prev.Next = next;
-
-                next.Prev = prev;
-            }
-
-            Count--;
         }
 
         public void RemoveElements(T element) // Задание 4.7

@@ -8,6 +8,7 @@ namespace AlgorythmsLab3.Testing
 {
     public class TestStack
     {
+        //1 часть 2 задание
         public static Stack<object> TestingStackFile(string fileName)
         {
             var path = Path.GetFullPath(Directory.GetCurrentDirectory() + $"\\..\\..\\..\\Testing\\{fileName}");

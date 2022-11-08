@@ -5,6 +5,7 @@ namespace AlgorythmsLab3
 {
     public static class StackRPN
     {
+        //1 часть 5 задание
         public static string ParseInRPN(string input)
         {
             string output = string.Empty;
@@ -94,6 +95,7 @@ namespace AlgorythmsLab3
                                                              || operation.Equals("sin");
 
 
+        //1 часть 4 задание
         public static double CalculateRPN(List<string> rpn)
         {
             if (rpn.Count == 0)

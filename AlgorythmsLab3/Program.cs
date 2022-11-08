@@ -10,7 +10,8 @@ namespace AlgorythmsLab3
             Menu menu = new MainMenu();
             menu.Start();
             
-            // Tests();
+            Tests();
+            Testing.Testing.TestQueueConst(x => TestQueue.TestingQueue(x)," ",1);
         }
 
         private static void Tests()
@@ -40,7 +41,7 @@ namespace AlgorythmsLab3
             AlgorythmsLab3.Testing.Testing.TestQueueRandom(func: x => TestQueue.TestingQueue(x), name: "Рандомные команды (Очередь)",
                 iterCount: 1);
             AlgorythmsLab3.Testing.Testing.TestQueueSpecificCommands(func: x => TestQueue.TestingQueue(x),
-                name: "Enqueue Decueue (Очередь)", iterCount: 1, 1, 2);
+                name: "Enqueue Decueue (Очередь)", iterCount: 1, 1, 2);                 //команды которые тестятся
             AlgorythmsLab3.Testing.Testing.TestQueueConst(func: x => TestQueue.TestingQueue(x),
                 name: "Одинаковые по длине рандомные команды (Очередь)", iterCount: 1);
         }

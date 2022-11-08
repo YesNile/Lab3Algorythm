@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics.CodeAnalysis;
 using AlgorythmsLab3.Structures.LinkedList;
 
 namespace AlgorythmsLab3
@@ -38,7 +39,7 @@ namespace AlgorythmsLab3
             }
             return _list.Head.Value;
         }
-
+        
         public void Print()
         {
             foreach (var elem in _list)
